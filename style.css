@@ -1,0 +1,126 @@
+.form-box {
+    background: #fff;
+    margin: 30px auto;
+    max-width: 500px;
+    box-shadow: 0 3px 6px 0px rgba(0,0,0,0.16), 0 3px 6px 0px rgba(0,0,0,0.23);
+}
+.form-box-signup {
+    background: #fff;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 3px 6px 0px rgba(0,0,0,0.16), 0 3px 6px 0px rgba(0,0,0,0.23);
+}
+form#login-form {
+    overflow: hidden;
+    position: relative;
+    padding: 40px;
+}
+.head {
+    color: #A6A6A6;
+    font-size: 34px;
+    font-weight: normal;
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+.left {
+    float: left;
+    margin-right: 10px;
+}
+.right {
+    float: right;
+    width: 60%;
+}
+img.Avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #A6A6A6;
+    overflow: hidden;
+}
+.label {
+    color: #A6A6A6;
+    font-family: Arial;
+    margin-top: 30px;
+}
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.form-control {
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #A6A6A6;
+    border-bottom-style: solid;
+    padding: 6px 0;
+    width: 100%;
+    font-size: 14px;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.button-pos {
+    text-align: center;
+}
+input.btn[type="submit"] {
+    background: #A6A6A6;
+    border:none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out 0s;
+    width: 60%;
+    box-shadow: 0 1px 2px 0px rgba(0,0,0,0.16), 0 1px 2px 0px rgba(0,0,0,0.23);
+}
+input.btn[type="submit"]:hover {
+    background: dimgray;
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.16), 0 2px 4px 0px rgba(0,0,0,0.23);
+}
+input.btn[type="button"] {
+    background: #A6A6A6;
+    border:none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out 0s;
+    width: 60%;
+    box-shadow: 0 1px 2px 0px rgba(0,0,0,0.16), 0 1px 2px 0px rgba(0,0,0,0.23);
+}
+input.btn[type="button"]:hover {
+    background: dimgray;
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.16), 0 2px 4px 0px rgba(0,0,0,0.23);
+}
+.text-p{
+    color: #A6A6A6;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.text-p a{
+    color: #175690;
+}
+.phone {
+    color: rgba(0,0,0,0.23);
+}
